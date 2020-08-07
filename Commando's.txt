@@ -1,0 +1,28 @@
+
+Opstarten van GitLab en Git met de hierbij gebruikte commando's
+
+INSTALLEREN
+------------
+GITLAB
+------
+
+GIT
+---
+Link : https://git-scm.com/
+* Gebruik vooral de default die aangegeven worden
+     * git --version
+     * git config --global user.name "Paul Cox"
+     * git config --global user.email "paul.cox@hccnet.nl"
+     * git config --global user.name
+     * git config --global user.email
+     * git config --global --list
+* Creeer een demo project/folder en voeg toe aan Git
+* Ga naar de nieuw gecreeerde directory/folder en maak file aan
+* Open CMD box of Git Bash of (apple) terminal
+     * git init
+	 * git status
+	 * git add . of git add <naam file>
+	 * git commit -m "logische omschrijving van de file>
+	 * git pusch -u origin master of git push -u https://gitlab.com/pgbhcox/my-first-project.git" master
+	   Bij de eerste keer moet je username passwoord ingeven
+	   
